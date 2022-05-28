@@ -19,12 +19,12 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['❤️HIRUU-QUEEN❤️']
-global.premium = ['+94704101989']
-global.ownernomer = '+94704101989'
+global.owner = ['94704101989']
+global.premium = ['94704101989']
+global.ownernomer = '94704101989'
 global.ownername = '❤️S_I_H_I_L_E_L❤️'
 global.botname = 'HIRUU-QUEEN-BOT'
-global.footer = '©NexusNwInc.'
+global.footer = '©Sihilel.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
