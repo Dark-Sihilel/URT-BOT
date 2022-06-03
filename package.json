@@ -1,5 +1,5 @@
 {
-  "name": "Gojo-Satoru",
+  "name": "Hiruu-Queen",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "termux",
     "whatsapp",
     "2022",
-    "GojoSatoru",
+    "Hiruu-Queen",
     "base",
     "baileys-md",
     "bot",
