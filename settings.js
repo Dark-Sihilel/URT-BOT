@@ -19,7 +19,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94704101989']
+global.owner = ['꧁S_I_H_I_L_E_L꧂']
 global.premium = ['94704101989']
 global.ownernomer = '94704101989'
 global.ownername = '❤️S_I_H_I_L_E_L❤️'
@@ -36,13 +36,13 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!♥️S+H♥️',
-    botAdmin: 'Bot Must Be Admin First!♥️S+H♥️',
-    owner: 'This Feature Is Only For Owner!♥️S+H♥️',
-    group: 'Feature Used Only For Groups!♥️S+H♥️',
-    private: 'Features Used Only For Private Chat!♥️S+H♥️',
-    bot: 'This Feature Is Only For Bot♥️S+H♥️',
-    wait: 'Wait A minute...♥️S+H♥️',
+    admin: 'This Feature Is Only For Admin!♥️S+H♥️ ඇඩ්මින්ලට විතරයි මේක පුලුවන් ළමයෝ🌝',
+    botAdmin: 'Bot Must Be Admin First!♥️S+H♥️ ඇඩ්මින් දියන්කෝ මුලින්😒',
+    owner: 'This Feature Is Only For Owner!♥️S+H♥ Owner ට විතරයි ළමයෝ',
+    group: 'Feature Used Only For Groups!♥️S+H♥️ group වල විතරයි ඕක😒',
+    private: 'Features Used Only For Private Chat!♥️S+H♥️ inbox විතරයි පුලුවන්🌝',
+    bot: 'This Feature Is Only For Bot♥️S+H♥️ මේක මට විතරයි පුලුවන්😌👍',
+    wait: 'Wait A minute...♥️S+H♥️ පොඩ්ඩක් ඉන්න මේ දෙනවා🙏',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
