@@ -19,7 +19,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['꧁S_I_H_I_L_E_L꧂']
+global.owner = ['94704101989']
 global.premium = ['94704101989']
 global.ownernomer = '94704101989'
 global.ownername = '❤️S_I_H_I_L_E_L❤️'
@@ -28,7 +28,7 @@ global.footer = '©Sihilel.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/Hiruu-Queen/Dark-Sihilel'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
+global.myweb = 'Channel එකක් නෑ 😹'
 global.packname = '❤️HIRUU-QUEEN❤️'
 global.author = '❤️S_I_H_I_L_E_L❤️'
 global.sessionName = 'session'
