@@ -862,7 +862,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hunt Again️🏹'
+        displayText: 'Hiruu-Hunt Again️🏹'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -1306,7 +1306,7 @@ GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${san
             let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '👀', buttonText: { displayText: '👀😂' }, type: 1 }
+                        { buttonId: '👀', buttonText: { displayText: 'මරු බන් 😹' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -1364,7 +1364,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                if (!text) return replay(`Example : ${prefix + command} packname|author`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          reply(`Exif Has Been Successfully Changed to\n\n🐦 Packname : ${global.packname}\n🐦 Author : ${global.author}`)
+          reply(`Exif Has Been Successfully Changed to\n\n🦄 Packname : ${global.packname}\n🦄 Author : ${global.author}`)
             }
             break
 	case 'kick': {
@@ -1452,11 +1452,11 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●♥ Tag All BY HIRUU ♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
-                teks += `🐦 @${mem.id.split('@')[0]}\n`
+                teks += `🦄 @${mem.id.split('@')[0]}\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -1476,7 +1476,7 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
                 let anu = await styletext(text)
                 let teks = `Entered Text ${text}\n\n`
                 for (let i of anu) {
-                    teks += `🐦 *${i.name}* : ${i.result}\n\n`
+                    teks += `🦄 *${i.name}* : ${i.result}\n\n`
                 }
                 reply(teks)
 	    }
@@ -1494,14 +1494,14 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 │
@@ -1535,14 +1535,14 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1577,14 +1577,14 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1615,14 +1615,14 @@ teks_vote = `*「 VOTE 」*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE HIRUU 〕
 │ 
 ┃╠ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1648,13 +1648,13 @@ break
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
                 if (args[0] === 'close'){
-                    await GojoMdNx.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`Successful Closing The Group`)).catch((err) => reply(jsonformat(err)))
+                    await GojoMdNx.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`Successful Closing The Group By Hiruu`)).catch((err) => reply(jsonformat(err)))
                 } else if (args[0] === 'open'){
-                    await GojoMdNx.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group`)).catch((err) => reply(jsonformat(err)))
+                    await GojoMdNx.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group By Hiruu`)).catch((err) => reply(jsonformat(err)))
                 } else {
                 let buttons = [
-                        { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'group open', buttonText: { displayText: 'Hiruu-Open' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: 'Hiruu-Close' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Group Mode`, GojoMdNx.user.name, m)
 
@@ -1671,8 +1671,8 @@ break
                 await GojoMdNx.groupSettingUpdate(m.chat, 'locked').then((res) => reply(`Successfully Closed Edit Group Info`)).catch((err) => reply(jsonformat(err)))
              } else {
              let buttons = [
-                        { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'editinfo open', buttonText: { displayText: 'Hiruu-Open' }, type: 1 },
+                        { buttonId: 'editinfo close', buttonText: { displayText: 'Hiruu-Close' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Mode Edit Info`, GojoMdNx.user.name, m)
 
@@ -1714,8 +1714,8 @@ break
                 reply(`${GojoMdNx.user.name} Has Been Unmuted In This Group!`)
                 } else {
                  let buttons = [
-                        { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
-                        { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
+                        { buttonId: 'mute on', buttonText: { displayText: 'On Hiruu' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: 'Off Hiruu' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Mute Bot`, GojoMdNx.user.name, m)
                 }
@@ -1757,22 +1757,22 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: '🦄Hiruu-Script🦄',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube💫',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🤩Menu🤩',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡SIHILEL⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -1791,22 +1791,22 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: '🦄Hiruu-Script🦄',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube💫',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🤩Menu🤩',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡Sihilel⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -1825,8 +1825,8 @@ break
                     let read = i.readTimestamp
                     let unread = i.receiptTimestamp
                     let waktu = read ? read : unread
-                    teks += `🐦 @${i.userJid.split('@')[0]}\n`
-                    teks += ` ┗━🐦 *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} 🐦 *Status :* ${read ? 'Read' : 'Sent'}\n\n`
+                    teks += `🦄 @${i.userJid.split('@')[0]}\n`
+                    teks += ` ┗━🦄 *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} 🦄 *Status :* ${read ? 'Read' : 'Sent'}\n\n`
                 }
                 GojoMdNx.sendTextWithMentions(m.chat, teks, m)
             }
@@ -1861,7 +1861,7 @@ break
              case 'listonlinexxx': case 'onlinelistxxx': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
-                    GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🐦 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+                    GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🦄 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
             case 'sticker': case 's': case 'stickergif': case 'sgif': {
@@ -1911,7 +1911,7 @@ break
         }
         break
             case 'emojimix': {
-	        if (!text) return replay(`Example : ${prefix + command} 😅+🤔`)
+	        if (!text) return replay(`Example : ${prefix + command} 🥺+💓`)
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
@@ -2028,13 +2028,13 @@ break
 	    }
 	    break
 	    case 'yts': case 'ytsearch': {
-                if (!text) return replay(`Example : ${prefix + command} Anime Story Whatsapp`)
+                if (!text) return replay(`Example : ${prefix + command} Blackpink`)
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `🐦 No : ${no++}\n🐦 Type : ${i.type}\n🐦 Video ID : ${i.videoId}\n🐦 Title : ${i.title}\n🐦 Views : ${i.views}\n🐦 Duration : ${i.timestamp}\n🐦 Uploaded On : ${i.ago}\n🐦 Author : ${i.author.name}\n🐦 Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `🦄 No : ${no++}\n🦄 Type : ${i.type}\n🦄 Video ID : ${i.videoId}\n🦄 Title : ${i.title}\n🦄 Views : ${i.views}\n🦄 Duration : ${i.timestamp}\n🦄 Uploaded On : ${i.ago}\n🦄 Author : ${i.author.name}\n🦄 Url : ${i.url}\n\n─────────────────\n\n`
                 }
                 GojoMdNx.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -2045,9 +2045,9 @@ break
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
                 for (let g of res) {
-                teks += `🐦 *Title* : ${g.title}\n`
-                teks += `🐦 *Description* : ${g.snippet}\n`
-                teks += `🐦 *Link* : ${g.link}\n\n────────────────────────\n\n`
+                teks += `🦄 *Title* : ${g.title}\n`
+                teks += `🦄 *Description* : ${g.snippet}\n`
+                teks += `🦄 *Link* : ${g.link}\n\n────────────────────────\n\n`
                 } 
                 reply(teks)
                 })
@@ -2076,13 +2076,13 @@ break
         }
         break
 	    case 'play': case 'song': case 'ytplay': {
-                if (!text) return reply(`Example : ${prefix + command} Stay`)
+                if (!text) return reply(`Example : ${prefix + command} nasuna`)
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶සිංදුව🎶'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️විඩියෝ📽️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
@@ -2110,7 +2110,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                GojoMdNx.sendImage(m.chat, media.thumb, `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${isUrl(text)}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '320kbps'}`, m)
+                GojoMdNx.sendImage(m.chat, media.thumb, `🦄 Title : ${media.title}\n🦄 File Size : ${media.filesizeF}\n🦄 Url : ${isUrl(text)}\n🦄 Ext : MP3\n🦄 Resolution : ${args[1] || '320kbps'}`, m)
                 GojoMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2120,7 +2120,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${isUrl(text)}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🦄 Title : ${media.title}\n🦄 File Size : ${media.filesizeF}\n🦄 Url : ${isUrl(text)}\n🦄 Ext : MP3\n🦄 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
 	    case 'getmusicxxx': {
@@ -2129,7 +2129,7 @@ break
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                GojoMdNx.sendImage(m.chat, media.thumb, `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${urls[text - 1]}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '128kbps'}`, m)
+                GojoMdNx.sendImage(m.chat, media.thumb, `🦄 Title : ${media.title}\n🦄 File Size : ${media.filesizeF}\n🦄 Url : ${urls[text - 1]}\n🦄 Ext : MP3\n🦄 Resolution : ${args[1] || '128kbps'}`, m)
                 GojoMdNx.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2143,7 +2143,7 @@ break
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(urls[text - 1], quality)
                 if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🐦 Title : ${media.title}\n🐦 File Size : ${media.filesizeF}\n🐦 Url : ${urls[text - 1]}\n🐦 Ext : MP3\n🐦 Resolution : ${args[1] || '360p'}` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `🦄 Title : ${media.title}\n🦄 File Size : ${media.filesizeF}\n🦄 Url : ${urls[text - 1]}\n🦄 Ext : MP3\n🦄 Resolution : ${args[1] || '360p'}` }, { quoted: m })
             }
             break
             case 'pinterest': {
@@ -2158,7 +2158,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
                 nexusnw.Webtoons(q).then(async data => {
-                    let txt = `*------「 WEBTOONS-SEARCH 」------*\n\n`
+                    let txt = `*------「 HIRUU-WEBTOONS-SEARCH 」------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*👍🏻 Like :* ${i.like}\n`
@@ -2176,7 +2176,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
                 nexusnw.Drakor(`${text}`).then(async data => {
-                    let txt = `*-----「 DRAKOR-SEARCH 」-----*\n\n`
+                    let txt = `*-----「 HIRUU-DRAKOR-SEARCH 」-----*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📆 Years :* ${i.years}\n`
@@ -2193,7 +2193,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Anime(q).then(async data => {
-                    let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
+                    let txt = `*-------「 HIRUU-ANIME-SEARCH 」-------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
@@ -2218,7 +2218,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Character(q).then(async data => {
-                    let txt = `*---「 CHARACTER-SEARCH 」---*\n\n`
+                    let txt = `*---「 HIRUU-CHARACTER-SEARCH 」---*\n\n`
                     for (let i of data) {
                         txt += `*📫 Character :* ${i.character}\n`
                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
@@ -2227,7 +2227,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "YouTube📍",
+						"displayText": "YouTube💫",
 						"url": `${myweb}`
 						}
 					}
@@ -2251,7 +2251,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "YouTube📍",
+						"displayText": "YouTube💫",
 						"url": `${myweb}`
 						}
 					}
@@ -2295,11 +2295,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wallpaper(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
 		let buttons = [
-                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: '➡️H-Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image[0] },
-                    caption: `🐦 Title : ${result.title}\n🐦 Category : ${result.type}\n🐦 Detail : ${result.source}\n🐦 Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    caption: `🦄 Title : ${result.title}\n🦄 Category : ${result.type}\n🦄 Detail : ${result.source}\n🦄 Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2313,11 +2313,11 @@ case 'webtonsearch': case 'webtoon':
                 anu = await wikimedia(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '➡️H-Next Image➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: result.image },
-                    caption: `🐦 Title : ${result.title}\n🐦 Source : ${result.source}\n🐦 Media Url : ${result.image}`,
+                    caption: `🦄 Title : ${result.title}\n🦄 Source : ${result.source}\n🦄 Media Url : ${result.image}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2330,7 +2330,7 @@ case 'webtonsearch': case 'webtoon':
                 let anu = await quotesAnime()
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [
-                    {buttonId: `quotesanime`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `quotesanime`, buttonText: {displayText: '➡️Hiruu-Next➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
@@ -2344,7 +2344,7 @@ case 'webtonsearch': case 'webtoon':
 	        case 'motivasi': case 'motivationalquote': case 'bucinquote': case 'katasenja': case 'puisi': {
                 let anu = await fetchJson(api('zenz', '/api/'+command, {}, 'apikey'))
                 let buttons = [
-                    {buttonId: `motivasi`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                    {buttonId: `motivasi`, buttonText: {displayText: '➡️Hiruu-Next➡️'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: anu.result.message,
@@ -2365,14 +2365,14 @@ case 'webtonsearch': case 'webtoon':
                 if (!Number(text)) return reply(`Example : ${prefix + command} 916909137213`)
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Phone Number :* ${anu.message.nomer_hp}\n🐦 *Shuzi Angka Figures :* ${anu.message.angka_shuzi}\n🐦 *Positive Energy :*\n- Riches : ${anu.message.energi_positif.kekayaan}\n- Health : ${anu.message.energi_positif.kesehatan}\n- Love : ${anu.message.energi_positif.cinta}\n- Stability : ${anu.message.energi_positif.kestabilan}\n- Percentage : ${anu.message.energi_positif.persentase}\n🐦 *Negative Energy :*\n- Dispute : ${anu.message.energi_negatif.perselisihan}\n- Lost : ${anu.message.energi_negatif.kehilangan}\n- Catastrophe : ${anu.message.energi_negatif.malapetaka}\n- Destruction : ${anu.message.energi_negatif.kehancuran}\n- Percentage : ${anu.message.energi_negatif.persentase}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Phone Number :* ${anu.message.nomer_hp}\n🦄 *Shuzi Angka Figures :* ${anu.message.angka_shuzi}\n🦄 *Positive Energy :*\n- Riches : ${anu.message.energi_positif.kekayaan}\n- Health : ${anu.message.energi_positif.kesehatan}\n- Love : ${anu.message.energi_positif.cinta}\n- Stability : ${anu.message.energi_positif.kestabilan}\n- Percentage : ${anu.message.energi_positif.persentase}\n🐦 *Negative Energy :*\n- Dispute : ${anu.message.energi_negatif.perselisihan}\n- Lost : ${anu.message.energi_negatif.kehilangan}\n- Catastrophe : ${anu.message.energi_negatif.malapetaka}\n- Destruction : ${anu.message.energi_negatif.kehancuran}\n- Percentage : ${anu.message.energi_negatif.persentase}`, m)
             }
             break
             case 'artimimpi': case 'tafsirmimpi': {
                 if (!text) return reply(`Example : ${prefix + command} belanja`)
                 let anu = await primbon.tafsir_mimpi(text)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Dream :* ${anu.message.mimpi}\n🐦 *Meaning :* ${anu.message.arti}\n🐦 *Solution :* ${anu.message.solusi}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Dream :* ${anu.message.mimpi}\n🦄 *Meaning :* ${anu.message.arti}\n🦄 *Solution :* ${anu.message.solusi}`, m)
             }
             break
             case 'ramalanjodoh': case 'ramaljodoh': {
@@ -2380,7 +2380,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Your Name :* ${anu.message.nama_anda.nama}\n🐦 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🐦 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🐦 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Your Name :* ${anu.message.nama_anda.nama}\n🦄 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🦄 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🦄 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
@@ -2388,7 +2388,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Your Name :* ${anu.message.nama_anda.nama}\n🐦 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🐦 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🐦 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Your Name :* ${anu.message.nama_anda.nama}\n🦄 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🦄 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🦄 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'suamiistri': {
@@ -2396,7 +2396,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Husband's Name :* ${anu.message.suami.nama}\n🐦 *Husband Born :* ${anu.message.suami.tgl_lahir}\n🐦 *Wife's Name :* ${anu.message.istri.nama}\n🐦 *Born Wife :* ${anu.message.istri.tgl_lahir}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Husband's Name :* ${anu.message.suami.nama}\n🦄 *Husband Born :* ${anu.message.suami.tgl_lahir}\n🦄 *Wife's Name :* ${anu.message.istri.nama}\n🦄 *Born Wife :* ${anu.message.istri.tgl_lahir}\n🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
@@ -2404,14 +2404,14 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Your Name :* ${anu.message.nama_anda.nama}\n🐦 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🐦 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🐦 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🐦 *Positive Side :* ${anu.message.sisi_positif}\n🐦 *Negative Side :* ${anu.message.sisi_negatif}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Your Name :* ${anu.message.nama_anda.nama}\n🦄 *Your Birth :* ${anu.message.nama_anda.tgl_lahir}\n🦄 *Couple Name :* ${anu.message.nama_pasangan.nama}\n🦄 *Born Couple :* ${anu.message.nama_pasangan.tgl_lahir}\n🦄 *Positive Side :* ${anu.message.sisi_positif}\n🦄 *Negative Side :* ${anu.message.sisi_negatif}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'artinama': {
                 if (!text) throw `Example : ${prefix + command} Dika Ardianta`
                 let anu = await primbon.arti_nama(text)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Meaning :* ${anu.message.arti}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Meaning :* ${anu.message.arti}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'kecocokannama': case 'cocoknama': {
@@ -2419,7 +2419,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Life Path :* ${anu.message.life_path}\n🐦 *Destiny :* ${anu.message.destiny}\n🐦 *Destiny Desire :* ${anu.message.destiny_desire}\n🐦 *Personality :* ${anu.message.personality}\n🐦 *Percentage :* ${anu.message.persentase_kecocokan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Life Path :* ${anu.message.life_path}\n🦄 *Destiny :* ${anu.message.destiny}\n🦄 *Destiny Desire :* ${anu.message.destiny_desire}\n🦄 *Personality :* ${anu.message.personality}\n🦄 *Percentage :* ${anu.message.persentase_kecocokan}`, m)
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
@@ -2427,7 +2427,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendImage(m.chat,  anu.message.gambar, `🐦 *Your Name :* ${anu.message.nama_anda}\n🐦 *Couple Name :* ${anu.message.nama_pasangan}\n🐦 *Positive Side :* ${anu.message.sisi_positif}\n🐦 *Negative Side :* ${anu.message.sisi_negatif}`, m)
+                GojoMdNx.sendImage(m.chat,  anu.message.gambar, `🦄 *Your Name :* ${anu.message.nama_anda}\n🦄 *Couple Name :* ${anu.message.nama_pasangan}\n🦄 *Positive Side :* ${anu.message.sisi_positif}\n🦄 *Negative Side :* ${anu.message.sisi_negatif}`, m)
             }
             break
             case 'jadianpernikahan': case 'jadiannikah': {
@@ -2435,7 +2435,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.tanggal_jadian_pernikahan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Wedding Date :* ${anu.message.tanggal}\n🐦 *Characteristics :* ${anu.message.karakteristik}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Wedding Date :* ${anu.message.tanggal}\n🦄 *Characteristics :* ${anu.message.karakteristik}`, m)
             }
             break
             case 'sifatusaha': {
@@ -2443,7 +2443,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_usaha_bisnis(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Born :* ${anu.message.hari_lahir}\n🐦 *Business :* ${anu.message.usaha}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Born :* ${anu.message.hari_lahir}\n🦄 *Business :* ${anu.message.usaha}`, m)
             }
             break
             case 'rejeki': case 'rezeki': {
@@ -2451,7 +2451,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Born :* ${anu.message.hari_lahir}\n🐦 *Sustenance :* ${anu.message.rejeki}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Born :* ${anu.message.hari_lahir}\n🦄 *Sustenance :* ${anu.message.rejeki}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'pekerjaan': case 'kerja': {
@@ -2459,7 +2459,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Born :* ${anu.message.hari_lahir}\n🐦 *Profession :* ${anu.message.pekerjaan}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Born :* ${anu.message.hari_lahir}\n🦄 *Profession :* ${anu.message.pekerjaan}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'ramalannasib': case 'ramalnasib': case 'nasib': {
@@ -2467,7 +2467,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.ramalan_nasib(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Analysis :* ${anu.message.analisa}\n🐦 *Root Number :* ${anu.message.angka_akar}\n🐦 *Nature :* ${anu.message.sifat}\n🐦 *Element :* ${anu.message.elemen}\n🐦 *Lucky Numbers :* ${anu.message.angka_keberuntungan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Analysis :* ${anu.message.analisa}\n🦄 *Root Number :* ${anu.message.angka_akar}\n🦄 *Nature :* ${anu.message.sifat}\n🦄 *Element :* ${anu.message.elemen}\n🦄 *Lucky Numbers :* ${anu.message.angka_keberuntungan}`, m)
             }
             break
             case 'potensipenyakit': case 'penyakit': {
@@ -2475,7 +2475,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Analysis :* ${anu.message.analisa}\n🐦 *Sector :* ${anu.message.sektor}\n?? *Element :* ${anu.message.elemen}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Analysis :* ${anu.message.analisa}\n🦄 *Sector :* ${anu.message.sektor}\n?? *Element :* ${anu.message.elemen}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'artitarot': case 'tarot': {
@@ -2483,7 +2483,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendImage(m.chat, anu.message.image, `🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Tarot Symbol :* ${anu.message.simbol_tarot}\n🐦 *Meaning :* ${anu.message.arti}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendImage(m.chat, anu.message.image, `🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Tarot Symbol :* ${anu.message.simbol_tarot}\n🦄 *Meaning :* ${anu.message.arti}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'fengshui': {
@@ -2491,7 +2491,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tahun_lahir}\n🐦 *Gender :* ${anu.message.jenis_kelamin}\n🐦 *Kua Number :* ${anu.message.angka_kua}\n🐦 *Group :* ${anu.message.kelompok}\n🐦 *Character :* ${anu.message.karakter}\n🐦 *Good Sector :* ${anu.message.sektor_baik}\n🐦 *Bad Sector :* ${anu.message.sektor_buruk}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Born :* ${anu.message.tahun_lahir}\n🦄 *Gender :* ${anu.message.jenis_kelamin}\n🦄 *Kua Number :* ${anu.message.angka_kua}\n🦄 *Group :* ${anu.message.kelompok}\n🦄 *Character :* ${anu.message.karakter}\n🦄 *Good Sector :* ${anu.message.sektor_baik}\n🦄 *Bad Sector :* ${anu.message.sektor_buruk}`, m)
             }
             break
             case 'haribaik': {
@@ -2499,7 +2499,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.petung_hari_baik(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *When Challenged :* ${anu.message.kala_tinantang}\n🐦 *Info :* ${anu.message.info}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *When Challenged :* ${anu.message.kala_tinantang}\n🦄 *Info :* ${anu.message.info}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'harisangar': case 'taliwangke': {
@@ -2507,7 +2507,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Results :* ${anu.message.result}\n🐦 *Info :* ${anu.message.info}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Results :* ${anu.message.result}\n🦄 *Info :* ${anu.message.info}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'harinaas': case 'harisial': {
@@ -2515,7 +2515,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Fateful Day :* ${anu.message.hari_naas}\n🐦 *Info :* ${anu.message.catatan}\n🐦 *Notes :* ${anu.message.info}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Day Of Birth :* ${anu.message.hari_lahir}\n🦄 *Date Of Birth :* ${anu.message.tgl_lahir}\n🦄 *Fateful Day :* ${anu.message.hari_naas}\n🦄 *Info :* ${anu.message.catatan}\n🦄 *Notes :* ${anu.message.info}`, m)
             }
             break
             case 'nagahari': case 'harinaga': {
@@ -2523,7 +2523,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Dragon Day Direction :* ${anu.message.arah_naga_hari}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Day Of Birth :* ${anu.message.hari_lahir}\n🦄 *Date Of Birth :* ${anu.message.tgl_lahir}\n🦄 *Dragon Day Direction :* ${anu.message.arah_naga_hari}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
@@ -2531,7 +2531,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Day Of Birth :* ${anu.message.hari_lahir}\n🐦 *Date Of Birth :* ${anu.message.tgl_lahir}\n🐦 *Sustenance Direction :* ${anu.message.arah_rejeki}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Day Of Birth :* ${anu.message.hari_lahir}\n🦄 *Date Of Birth :* ${anu.message.tgl_lahir}\n🦄 *Sustenance Direction :* ${anu.message.arah_rejeki}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'peruntungan': {
@@ -2539,7 +2539,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Fortune Of The Year :* ${anu.message.peruntungan_tahun}\n🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'weton': case 'wetonjawa': {
@@ -2547,7 +2547,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Date :* ${anu.message.tanggal}\n🐦 *Number Of Neptune :* ${anu.message.jumlah_neptu}\n🐦 *Day Character :* ${anu.message.watak_hari}\n🐦 *Dragon Day :* ${anu.message.naga_hari}\n🐦 *Good Hour :* ${anu.message.jam_baik}\n🐦 *Birth Character :* ${anu.message.watak_kelahiran}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Date :* ${anu.message.tanggal}\n🦄 *Number Of Neptune :* ${anu.message.jumlah_neptu}\n🦄 *Day Character :* ${anu.message.watak_hari}\n🦄 *Dragon Day :* ${anu.message.naga_hari}\n🦄 *Good Hour :* ${anu.message.jam_baik}\n🦄 *Birth Character :* ${anu.message.watak_kelahiran}`, m)
             }
             break
             case 'sifat': case 'karakter': {
@@ -2555,7 +2555,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Lifeline :* ${anu.message.garis_hidup}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Lifeline :* ${anu.message.garis_hidup}`, m)
             }
             break
             case 'keberuntungan': {
@@ -2563,7 +2563,7 @@ case 'webtonsearch': case 'webtoon':
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Name :* ${anu.message.nama}\n🐦 *Born :* ${anu.message.tgl_lahir}\n🐦 *Results :* ${anu.message.result}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Name :* ${anu.message.nama}\n🦄 *Born :* ${anu.message.tgl_lahir}\n🦄 *Results :* ${anu.message.result}`, m)
             }
             break
             case 'memancing': {
@@ -2571,7 +2571,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Date :* ${anu.message.tgl_memancing}\n🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Date :* ${anu.message.tgl_memancing}\n🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'masasubur': {
@@ -2579,7 +2579,7 @@ case 'webtonsearch': case 'webtoon':
                 let [tgl, bln, thn, siklus] = text.split`,`
                 let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Results :* ${anu.message.result}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Results :* ${anu.message.result}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'zodiak': case 'zodiac': {
@@ -2614,14 +2614,14 @@ case 'webtonsearch': case 'webtoon':
                 
                 let anu = await primbon.zodiak(zodiac)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Zodiac :* ${anu.message.zodiak}\n🐦 *Number :* ${anu.message.nomor_keberuntungan}\n🐦 *Aroma :* ${anu.message.aroma_keberuntungan}\n🐦 *Planet :* ${anu.message.planet_yang_mengitari}\n🐦 *Flower :* ${anu.message.bunga_keberuntungan}\n🐦 *Color :* ${anu.message.warna_keberuntungan}\n🐦 *Stone :* ${anu.message.batu_keberuntungan}\n🐦 *Element :* ${anu.message.elemen_keberuntungan}\n🐦 *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n🐦 *Notes :* ${anu.message.catatan}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Zodiac :* ${anu.message.zodiak}\n🦄 *Number :* ${anu.message.nomor_keberuntungan}\n🦄 *Aroma :* ${anu.message.aroma_keberuntungan}\n🦄 *Planet :* ${anu.message.planet_yang_mengitari}\n🦄 *Flower :* ${anu.message.bunga_keberuntungan}\n🦄 *Color :* ${anu.message.warna_keberuntungan}\n🦄 *Stone :* ${anu.message.batu_keberuntungan}\n🦄 *Element :* ${anu.message.elemen_keberuntungan}\n🦄 *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n🦄 *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'shio': {
                 if (!text) throw `Example : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
                 let anu = await primbon.shio(text)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🐦 *Results :* ${anu.message}`, m)
+                GojoMdNx.sendText(m.chat, `🦄 *Results :* ${anu.message}`, m)
             }
             break
 	    case 'stalker': case 'stalk': {
@@ -2663,13 +2663,13 @@ case 'webtonsearch': case 'webtoon':
                     if (!id) return reply(`No Query username, Example : ${prefix + command} ig josephxeon13`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/ig', { username: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
-                    GojoMdNx.sendMedia(m.chat, anu.caption.profile_hd, '', `🐦 Full Name : ${anu.caption.full_name}\n🐦 User Name : ${anu.caption.user_name}\n🐦 ID ${anu.caption.user_id}\n🐦 Following : ${anu.caption.followers}\n🐦 Followers : ${anu.caption.following}\n🐦 Bussines : ${anu.caption.bussines}\n🐦 Professional : ${anu.caption.profesional}\n🐦 Verified : ${anu.caption.verified}\n🐦 Private : ${anu.caption.private}\n🐦 Bio : ${anu.caption.biography}\n🐦 Bio Url : ${anu.caption.bio_url}`, m)
+                    GojoMdNx.sendMedia(m.chat, anu.caption.profile_hd, '', `🦄 Full Name : ${anu.caption.full_name}\n🦄 User Name : ${anu.caption.user_name}\n🦄 ID ${anu.caption.user_id}\n🦄 Following : ${anu.caption.followers}\n🦄 Followers : ${anu.caption.following}\n🦄 Bussines : ${anu.caption.bussines}\n🦄 Professional : ${anu.caption.profesional}\n🦄 Verified : ${anu.caption.verified}\n🦄 Private : ${anu.caption.private}\n🦄 Bio : ${anu.caption.biography}\n🦄 Bio Url : ${anu.caption.bio_url}`, m)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'npm') {
                     if (!id) return reply(`No Query username, Example : ${prefix + command} npm scrape-primbon`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/npm', { query: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
-                    reply(`🐦 Name : ${anu.name}\n🐦 Version : ${Object.keys(anu.versions)}\n🐦 Created : ${tanggal(anu.time.created)}\n🐦 Modified : ${tanggal(anu.time.modified)}\n🐦 Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n🐦 Description : ${anu.description}\n🐦 Homepage : ${anu.homepage}\n🐦 Keywords : ${anu.keywords}\n🐦 Author : ${anu.author.name}\n🐦 License : ${anu.license}\n🐦 Readme : ${anu.readme}`)
+                    reply(`🦄 Name : ${anu.name}\n🦄 Version : ${Object.keys(anu.versions)}\n🦄 Created : ${tanggal(anu.time.created)}\n🦄 Modified : ${tanggal(anu.time.modified)}\n🦄 Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n🦄 Description : ${anu.description}\n🦄 Homepage : ${anu.homepage}\n🦄 Keywords : ${anu.keywords}\n🦄 Author : ${anu.author.name}\n🦄 License : ${anu.license}\n🦄 Readme : ${anu.readme}`)
 		    db.data.users[m.sender].limit -= 1
                 } else {
                     reply(`Example : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
@@ -2681,8 +2681,8 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬H-With Watermark🥬'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵සොංදුව🎵'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.nowatermark },
@@ -2699,8 +2699,8 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬H-No Watermark🥬'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵සිංදුව🎵'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.watermark },
@@ -2717,8 +2717,8 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1}
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬H-No Watermark🥬'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬H-With Watermark🥬'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `Download From ${text}`,
@@ -2755,7 +2755,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`No Query Title`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/joox', { query: text }, 'apikey'))
-                let msg = await GojoMdNx.sendImage(m.chat, anu.result.img, `🐦 Title : ${anu.result.lagu}\n🐦 Album : ${anu.result.album}\n🐦 Singer : ${anu.result.penyanyi}\n🐦 Publish : ${anu.result.publish}\n🐦 Lyrics :\n${anu.result.lirik.result}`, m)
+                let msg = await GojoMdNx.sendImage(m.chat, anu.result.img, `🦄 Title : ${anu.result.lagu}\n🦄 Album : ${anu.result.album}\n🦄 Singer : ${anu.result.penyanyi}\n🦄 Publish : ${anu.result.publish}\n🦄 Lyrics :\n${anu.result.lirik.result}`, m)
                 GojoMdNx.sendMessage(m.chat, { audio: { url: anu.result.mp4aLink }, mimetype: 'audio/mpeg', fileName: anu.result.lagu+'.m4a' }, { quoted: msg })
             }
             break
@@ -2763,7 +2763,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`No Query Title`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/soundcloud', { url: isUrl(text)[0] }, 'apikey'))
-                let msg = await GojoMdNx.sendImage(m.chat, anu.result.thumb, `🐦 Title : ${anu.result.title}\n🐦 Url : ${isUrl(text)[0]}`)
+                let msg = await GojoMdNx.sendImage(m.chat, anu.result.thumb, `🦄 Title : ${anu.result.title}\n🦄 Url : ${isUrl(text)[0]}`)
                 GojoMdNx.sendMessage(m.chat, { audio: { url: anu.result.url }, mimetype: 'audio/mpeg', fileName: anu.result.title+'.m4a' }, { quoted: msg })
             }
             break
@@ -2772,7 +2772,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '🎵සිංදුව🎵'}, type: 1}
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.HD || anu.result.SD },
@@ -2806,7 +2806,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
-                GojoMdNx.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `🐦 Title : ${anu.result.title}`}, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `🦄 Title : ${anu.result.title}`}, { quoted: m })
             }
             break
 	        case 'pindl': case 'pinterestdl': {
@@ -2822,8 +2822,8 @@ case 'webtonsearch': case 'webtoon':
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
 		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵Audio🎵'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵සිංදුව🎵'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️විඩීයෝව📽️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
@@ -2842,7 +2842,7 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		    GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
 		} else if (anu.type == 'image') {
 		    anu.media.map(async (url) => {
-		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `🐦 Title : ${anu.title}\n🐦 Author : ${anu.author.name}\n🐦 Like : ${anu.like}\n🐦 Caption : ${anu.caption}` }, { quoted: m })
+		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `🦄 Title : ${anu.title}\n🦄 Author : ${anu.author.name}\n🦄 Like : ${anu.like}\n🦄 Caption : ${anu.caption}` }, { quoted: m })
 		    })
 		}
 	    }
