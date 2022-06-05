@@ -635,7 +635,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Mine Again⛏️'
+        displayText: 'Hiruu Mine Again⛏️'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -862,7 +862,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hunt Again️🏹'
+        displayText: 'Hiruu Hunt Again️🏹'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -1364,7 +1364,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                if (!text) return replay(`Example : ${prefix + command} packname|author`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
-          reply(`Exif Has Been Successfully Changed to\n\n🐦 Packname : ${global.packname}\n🐦 Author : ${global.author}`)
+          reply(`Exif Has Been Successfully Changed to\n\n🦄 Packname : ${global.packname}\n🦄 Author : ${global.author}`)
             }
             break
 	case 'kick': {
@@ -1757,7 +1757,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: 'Hiruu Script🔖',
                                     url: `${sc}`
                                 }
                             }, {
@@ -1772,7 +1772,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡SIHILEL⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -1791,7 +1791,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
+                                    displayText: 'Hiruu Script🔖',
                                     url: `${sc}`
                                 }
                             }, {
@@ -1806,7 +1806,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡SIHILEL⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -1861,7 +1861,7 @@ break
              case 'listonlinexxx': case 'onlinelistxxx': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
-                    GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🐦 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+                    GojoMdNx.sendText(m.chat, 'Online List:\n\n' + online.map(v => '🦄 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
             case 'sticker': case 's': case 'stickergif': case 'sgif': {
@@ -1911,7 +1911,7 @@ break
         }
         break
             case 'emojimix': {
-	        if (!text) return replay(`Example : ${prefix + command} 😅+🤔`)
+	        if (!text) return replay(`Example : ${prefix + command} 🥺+💓`)
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
@@ -2151,7 +2151,7 @@ break
 		let { pinterest } = require('./lib/scraper')
                 anu = await pinterest(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
-                GojoMdNx.sendMessage(m.chat, { image: { url: result }, caption: '🐦 Media Url : '+result }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: result }, caption: '🦄 Media Url : '+result }, { quoted: m })
             }
             break
 case 'webtonsearch': case 'webtoon':
@@ -2842,7 +2842,7 @@ To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp
 		    GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
 		} else if (anu.type == 'image') {
 		    anu.media.map(async (url) => {
-		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `🐦 Title : ${anu.title}\n🐦 Author : ${anu.author.name}\n🐦 Like : ${anu.like}\n🐦 Caption : ${anu.caption}` }, { quoted: m })
+		        GojoMdNx.sendMessage(m.chat, { image: { url }, caption: `🦄 Title : ${anu.title}\n🦄 Author : ${anu.author.name}\n🦄 Like : ${anu.like}\n🦄 Caption : ${anu.caption}` }, { quoted: m })
 		    })
 		}
 	    }
@@ -3296,7 +3296,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  How Are You 🦄💫
-││✑  🐦🖐️!!
+││✑  🌝🖐️!!
 │└───────────────┈ ⳹
 │ 「 HIRUU QUEEN BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3332,7 +3332,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡SIHILEL⚡',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3392,7 +3392,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🦄',
+                                    displayText: '🦄SIHILEL🦄',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3779,7 +3779,7 @@ case 'allmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '⚡SIHILEL⚡',
                                     id: `${prefix}owner`
                                 }
                             }]
