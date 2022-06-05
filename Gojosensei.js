@@ -3078,7 +3078,7 @@ View List Of Messages With ${prefix}listmsg`)
                 }
                 reply('Ok')
                 let other = room.other(m.sender)
-                if (other) await GojoMdNx.sendText(other, `\`\`\`අන්න ඔයත් එක්ක චැට් කරපු කෙනා ගියා 😳💫`\`\``, m)
+                if (other) await GojoMdNx.sendText(other, `\`\`\`Partner Has Left Anonymous Session`\`\``, m)
                 delete this.anonymous[room.id]
                 if (command === 'leave') break
             }
@@ -3098,7 +3098,7 @@ View List Of Messages With ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: '⏩වෙන කෙනෙක්⏩' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: '💉නවත්තමු💉' }, type: 1 }
                     ]
-                    await GojoMdNx.sendButtonText(room.a, buttons, `\`\`\`ඔන්න ඔයාට කෙනෙක් හොයාගත්තා🌝 දැන් චැට් කරන්න එයත් එක්ක🌚`\``, GojoMdNx.user.name, m)
+                    await GojoMdNx.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
                     room.b = m.sender
                     room.state = 'CHATTING'
                     await GojoMdNx.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, Now You Can Send Message\`\`\``, GojoMdNx.user.name, m)
