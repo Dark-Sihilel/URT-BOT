@@ -3295,7 +3295,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You 🦄💫
+┌┤✑  Dark-Hiruu is alive now 😌💯
 ││✑  🌝🖐️!!
 │└───────────────┈ ⳹
 │ 「 HIRUU QUEEN BOT INFO 」
