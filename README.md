@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/daeb18b6097092b17708b.jpg" alt="nz" width="350"/>
 </p>
 
-## Hiruu-Queen
+## 💯Hiruu-Queen-Bot💯
 
 > <a href="https://youtu.be/W-QCp2fWRTo"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 
@@ -39,7 +39,7 @@ Add FFmpeg to PATH environment variable
 <b><details><summary>Start via Heroku</summary></b>
 
 * 𝐇𝐈𝐑𝐔𝐔 𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 ස්කෑන් කිරීමට 👉⚡ [Click Here](https://replit.com/@nexusNw/Md-Scanner?outputonly=1&lite=1)
-* fork කරලා ඔයාගේ session එක දාගන්න මේක ඔබන්න 👉⚡ [Click Here](https://github.com/Hiruu-Queen/Dark-Sihilel/fork)
+* fork කරලා ඔයාගේ session එක දාගන්න මේක ඔබන්න 👉⚡ [Click Here](https://github.com/Dark-Sihilel/Dark-Hiruu/fork)
 * Bot depoy කරන්න මේක ඔබන්න 👉⚡ [Click Here](https://heroku.com/deploy)
 * විනාඩි 5-10 ක් ඉන්න deploy වෙනකම් 🌝
 * Deploy උනාට පස්සේ manage app කියන එකට ගිහින් bot off කරලා on කරලා log එක බලන්න🌝⚡
