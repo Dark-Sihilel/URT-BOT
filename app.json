@@ -1,7 +1,7 @@
 {
-  "name": "♥️HIRUU-QUEEN♥️",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Hiruu-Queen/Dark-Sihilel",
+  "name": "♥️HIRUU-QUEEN-BOT♥️",
+  "description": "The Helpful Whatsapp Multi Device Bot",
+  "repository": "https://github.com/Dark-Sihilel/Dark-Hiruu",
   "logo": "https://telegra.ph/file/6e722d1538e18fe637cd9.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
