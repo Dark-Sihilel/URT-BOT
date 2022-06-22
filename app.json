@@ -1,7 +1,7 @@
 {
   "name": "♥️HIRUU-QUEEN-BOT♥️",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Hiruu-Queen/Dark-Sihilel",
+  "repository": "https://github.com/darkalphaxteam/Gojo-Satoru",
   "logo": "https://telegra.ph/file/6e722d1538e18fe637cd9.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
@@ -9,7 +9,7 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
