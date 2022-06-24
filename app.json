@@ -1,7 +1,7 @@
 {
-  "name": "♥️HIRUU-QUEEN-BOT♥️",
+  "name": "♥️DARK-BOY-BOT♥️",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/darkalphaxteam/Gojo-Satoru",
+  "repository": "https://github.com/ravindushehan/Dark-Boy",
   "logo": "https://telegra.ph/file/6e722d1538e18fe637cd9.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
