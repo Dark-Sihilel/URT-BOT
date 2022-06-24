@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/daeb18b6097092b17708b.jpg" alt="nz" width="350"/>
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Favatars-000072326919-zm14yw-t500x500.jpg&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fravindu-herath&docid=uMjziAnkMZhyPM&tbnid=MN5vuTd1f8wW3M&vet=1&source=sh%2Fx%2Fim" alt="nz" width="350"/>
 </p>
 
 ## 💯Dark-Boy-Bot💯
