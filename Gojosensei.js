@@ -3281,6 +3281,10 @@ break
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
+		break
+	case 'info': case 'about': {
+		GojoMdNx.sendMessage(from, { text: `Try for this!\n✺➾ ☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐\n\nhttps://sites.google.com/view/red-dragon-bot/home` }, { quoted: m })
+	}
                     break
                      case 'alive': case 'bot':{
                            	timestampe = speed();
