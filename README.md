@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://sites.google.com/view/hiruu-queen-bot/home"><img src="https://telegra.ph/file/6e722d1538e18fe637cd9.jpg" alt="nz" width="350"/>
+<a href="https://sites.google.com/view/hiruu-queen-bot/home"><img src="https://telegra.ph/file/daeb18b6097092b17708b.jpg" alt="nz" width="350"/>
 </p>
 
 ## 💯Hiruu-Queen-Bot💯
