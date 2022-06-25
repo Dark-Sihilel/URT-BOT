@@ -1306,7 +1306,7 @@ GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${san
             let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '👀', buttonText: { displayText: 'මරු බන් 😹' }, type: 1 }
+                        { buttonId: '👀', buttonText: { displayText: 'ආතල් හැබැයි 😹💔' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -1510,8 +1510,8 @@ let teks = `╚»˙·٠•●♥ Tag All By Hiruu ♥●•٠·˙«╝
 
 *${prefix}delvote* - To Delete Vote Session`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote📌'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote📌'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -1551,8 +1551,8 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *${prefix}delvote* - To Delete Vote Session`
             let buttonsUpvote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote📌'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote📌'}, type: 1}
             ]
 
             let buttonMessageUpvote = {
@@ -1593,8 +1593,8 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *${prefix}delvote* - To Delete Vote Session`
             let buttonsDevote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote'}, type: 1}
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: 'Upvote📌'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: 'Devote📌'}, type: 1}
             ]
 
             let buttonMessageDevote = {
@@ -1653,8 +1653,8 @@ break
                     await GojoMdNx.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group`)).catch((err) => reply(jsonformat(err)))
                 } else {
                 let buttons = [
-                        { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'group open', buttonText: { displayText: '🔊Open🔊' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: '🔇Close🔇' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Group Mode`, GojoMdNx.user.name, m)
 
@@ -1671,8 +1671,8 @@ break
                 await GojoMdNx.groupSettingUpdate(m.chat, 'locked').then((res) => reply(`Successfully Closed Edit Group Info`)).catch((err) => reply(jsonformat(err)))
              } else {
              let buttons = [
-                        { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
-                        { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
+                        { buttonId: 'editinfo open', buttonText: { displayText: '🔊Open🔊' }, type: 1 },
+                        { buttonId: 'editinfo close', buttonText: { displayText: '🔇Close🔇' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Mode Edit Info`, GojoMdNx.user.name, m)
 
@@ -1693,8 +1693,8 @@ break
                 reply(`Antilink Inactive !`)
                 } else {
                  let buttons = [
-                        { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
-                        { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
+                        { buttonId: 'antilink on', buttonText: { displayText: '🔮On🔮' }, type: 1 },
+                        { buttonId: 'antilink off', buttonText: { displayText: '🔮Off🔮' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Antilink Mode`, GojoMdNx.user.name, m)
                 }
@@ -1757,12 +1757,12 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Hiruu Script🔖',
+                                    displayText: 'BOT GROUP🎠',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'My Web😈',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1791,12 +1791,12 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Hiruu Script🔖',
+                                    displayText: 'BOT GROUP🎠',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'My Web😈',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1956,7 +1956,7 @@ break
             GojoMdNx.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
             }
             break
-            case 'tomp3': {
+            case 'tomp3': case 'mp3':{
             if (/document/.test(mime)) return reply(`Send/Reply Video/Audio You Want to Convert Into MP3 With Caption ${prefix + command}`)
             if (!/video/.test(mime) && !/audio/.test(mime)) return replay(`Send/Reply Video/Audio You Want To Convert into MP3 With Caption ${prefix + command}`)
             if (!quoted) return replay(`Send/Reply Video/Audio You Want To Convert Into MP3 With Caption ${prefix + command}`)
@@ -1977,7 +1977,7 @@ break
             GojoMdNx.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
             }
             break
-            case 'togif': {
+            case 'togif': case 'gif'; {
                 if (!quoted) return reply(`Reply Image`)
                 if (!/webp/.test(mime)) return reply(`Reply Sticker With Caption *${prefix + command}*`)
                 reply(mess.wait)
@@ -1988,7 +1988,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-	        case 'tourl': {
+	        case 'tourl': case 'link': {
                 reply(mess.wait)
 		        let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
                 let media = await GojoMdNx.downloadAndSaveMediaMessage(quoted)
@@ -2053,7 +2053,7 @@ break
                 })
                 }
                 break
-        case 'gimage': case 'googleimage': {
+        case 'gimage': case 'googleimage': case 'img': {
         if (!text) return reply(`Example : ${prefix + command} gojo`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
@@ -2075,7 +2075,7 @@ break
         })
         }
         break
-	    case 'play': case 'song': case 'ytplay': {
+	    case 'play': case 'song': case 'ytplay': case 'music': case 'yt': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2676,7 +2676,7 @@ case 'webtonsearch': case 'webtoon':
                 }
             }
             break
-	        case 'tiktokd': case 'tiktoknowmx': {
+	        case 'tiktokd': case 'tiktoknowmx': case 'tiktok': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -3321,7 +3321,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Hiruu Script🔖',
+                                displayText: 'BOT GROUP🎠',
                                     url: `${sc}`
                                 }
                             }, {
@@ -3381,7 +3381,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Hiruu Script🔖',
+                                displayText: 'BOT GROUP🎠',
                                     url: `${sc}`
                                 }
                             }, {
@@ -3396,7 +3396,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🦄SIHILEL🦄',
+                                    displayText: '🎠SIHILEL🎠',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3598,6 +3598,7 @@ case 'allmenu': {
 ┃╠🌹🦄${prefix}buy [option]
 ┃╠🌹🦄${prefix}sell [option]
 ┃╠═♥️「 DOWNLOADER 」☯︎
+┃╠🌹🦄${prefix}yt [url|quality]
 ┃╠🌹🦄${prefix}ytmp3 [url|quality]
 ┃╠🌹🦄${prefix}ytmp4 [url|quality]
 ┃╠🌹🦄${prefix}getmusic [yt link]
@@ -3609,6 +3610,7 @@ case 'allmenu': {
 ┃╠🌹🦄${prefix}play [query]
 ┃╠🌹🦄${prefix}song [query]
 ┃╠🌹🦄${prefix}yts [query]
+┃╠🌹🦄${prefix}img [query]
 ┃╠🌹🦄${prefix}google [query]
 ┃╠🌹🦄${prefix}gimage [query]
 ┃╠🌹🦄${prefix}pinterest [query]
@@ -3697,6 +3699,7 @@ case 'allmenu': {
 ┃╠🌹🦄 ${prefix}suitpvp [tag]
 ┃╠═══♥️「 CONVERTER 」 ☯︎
 ┃╠🌹🦄 ${prefix}toimage [reply stick]
+┃╠🌹🦄 ${prefix}mp3 [reply vn]
 ┃╠🌹🦄 ${prefix}sticker [reply img|gif]
 ┃╠🌹🦄 ${prefix}emojimix [moji+moji]
 ┃╠🌹🦄 ${prefix}tovideo [reply img]
@@ -3778,7 +3781,7 @@ case 'allmenu': {
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'My Web😈',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3812,7 +3815,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄 ${prefix}donate
 ┃╠🌹🦄 ${prefix}report [bug]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -3841,7 +3844,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}checkvote
 ┃╠🌹🦄${prefix}delvote
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 
 case 'rpgmenu':
@@ -3859,7 +3862,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}buy [option]
 ┃╠🌹🦄${prefix}sell [option]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 
 case 'funmenu':
@@ -3912,7 +3915,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄 ${prefix}math [mode]
 ┃╠🌹🦄 ${prefix}suitpvp [tag]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 
 case 'ownermenu':
@@ -3941,7 +3944,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}checkvote
 ┃╠🌹🦄${prefix}delvote
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -3956,7 +3959,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}joox [query]
 ┃╠🌹🦄${prefix}soundcloud [url]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -3975,7 +3978,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}ringtone [query]
 ┃╠🌹🦄${prefix}webtoon [query]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -3986,7 +3989,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}animequote (indo)
 ┃╠🌹🦄${prefix}couplepp
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4021,7 +4024,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}dance
 ┃╠🌹🦄${prefix}cringe
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -4060,7 +4063,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄 ${prefix}blackpink [txt]
 ┃╠🌹🦄 ${prefix}gluetext [txt]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4079,7 +4082,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄 ${prefix}ebinary [reply txt]
 ┃╠🌹🦄 ${prefix}dbinary [reply txt]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4095,7 +4098,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄 ${prefix}getmsg
 ┃╠🌹🦄 ${prefix}delmsg
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4107,7 +4110,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}next
 ┃╠🌹🦄${prefix}leave
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
@@ -4116,7 +4119,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╔══♥️「 ISLAMIC 」	        
 ┃╠🌹🦄${prefix}juzamma
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4135,7 +4138,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}slow [reply aud]
 ┃╠🌹🦄${prefix}squirrel [reply aud]
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4173,13 +4176,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🌹🦄${prefix}zodiak (indo)
 ┃╠🌹🦄${prefix}shio (indo)
 ┃╚═════════════🦄💫
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me ( Sihilel)
-And Again Me (King Sihilel 🎉) 🦄 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Hiruu Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
+And Again Me (King Sihilel 🎉) 🦄 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "My Web😈","url": `${myweb}`}},{"urlButton": {"displayText": "BOT GROUP🎠","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "⚡SIHILEL⚡","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
