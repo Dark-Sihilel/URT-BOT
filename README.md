@@ -1,10 +1,10 @@
 <p align="center">
-<a href="https://sites.google.com/view/red-dragon-bot/home"><img src="https://telegra.ph/file/daeb18b6097092b17708b.jpg" alt="nz" width="350"/>
+<a href="https://sites.google.com/view/hiruu-queen-bot/home"><img src="https://telegra.ph/file/6e722d1538e18fe637cd9.jpg" alt="nz" width="350"/>
 </p>
 
 ## 💯Hiruu-Queen-Bot💯
 
-> <a href="https://sites.google.com/view/red-dragon-bot/home"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+> <a href="https://sites.google.com/view/rhiruu-queen-bot/home"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 
 > [Automated Multi Device whatsapp bot created](https://github.com/Hiruu-Queen/Dark-Sihilel) by [SIHILEL](github.com/Hiruu-Queen)
 
