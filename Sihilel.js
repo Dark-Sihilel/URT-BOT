@@ -3418,8 +3418,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Main Features",
 			                                        "raws": [
 									{
-										"title": "Main Menu 🦄",
-										"description": "Displays The List Of Main Features🌹",
+										"title": "Main Menu",
+										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}mainmenu`
 									}
 								]
@@ -3428,78 +3428,78 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Bot Features",
 								"rows": [
 									{
-										"title": "All Menu 🦄",
-										"description": "Displays The List Of All The Features!🌹",
+										"title": "All Menu",
+										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 🦄",
-										"description": "Displays The List Of Owner Features🌹",
+										"title": "Owner Menu",
+										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu 🦄",
-										"description": "Displays The List Of Main Features🌹",
+										"title": "Group Menu",
+										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
-										"title": "Rpg Menu 🦄",
-										"description": "Displays The List Of Rpg Features🌹",
+										"title": "Rpg Menu",
+										"description": "Displays The List Of Rpg Features",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "Download Menu 🦄",
-										"description": "Displays The List Of Download Features🌹",
+										"title": "Download Menu",
+										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu 🦄",
-										"description": "Displays The List Of Searching Features🌹",
+										"title": "Search Menu",
+										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu 🦄",
-										"description": "Displays The List Of Random Features🌹",
+											"title": "Random Menu",
+										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Random Anime Menu 🦄",
-										"description": "Displays The List Of Random Anime Features🌹",
+											"title": "Random Anime Menu ",
+										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "Fun Menu 🦄",
-										"description": "Displays The List Of Fun Features🌹",
+											"title": "Fun Menu",
+										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-											"title": "Convert Menu 🦄",
-										"description": "Displays The List Of Convert Features🌹",
+											"title": "Convert Menu",
+										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu 🦄",
-										"description": "Displays The List Of Database Features🌹",
+											"title": "Database Menu",
+										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Voice Changer Menu 🦄",
-										"description": "Displays The List Of Voice Changing Features🌹",
+											"title": "Voice Changer Menu",
+										"description": "Displays The List Of Voice Changing Features",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "TXT-to-IMG Menu 🦄",
-										"description": "Displays The List Of Textpro Features🌹",
+											"title": "TXT-to-IMG Menu",
+										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Islamic Menu 🦄",
-										"description": "Displays The List Of Islamic Features🌹",
+											"title": "Islamic Menu",
+										"description": "Displays The List Of Islamic Features",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
-											"title": "Horoscope Menu 🦄",
-										"description": "Displays The List Of Horoscope Features🌹",
+											"title": "Horoscope Menu",
+										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
 										}
 								]
@@ -3508,8 +3508,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🦄",
-										"description": "Displays The List Of Anonymous Chat Features🌹",
+										"title": "Anonymous Chat Menu",
+										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
 								]
@@ -3518,8 +3518,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit",
 								"rows": [
 									{
-										"title": "Thanks To Hiruu 🦄",
-										"description": "Displays The List Of Credit Of The Bot !!🌹",
+										"title": "Thanks To",
+										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -3532,7 +3532,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6e722d1538e18fe637cd9.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6e722d1538e18fe637cd9.jpg' }, caption: `*Hi Bro ${m.pushName}*\nHello I am Hiruu Queen Bot.......My creater is༻Sihilel༺💯🌹Donation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
